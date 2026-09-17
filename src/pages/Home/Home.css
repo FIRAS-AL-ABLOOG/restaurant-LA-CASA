@@ -1,0 +1,180 @@
+.hero {
+  min-height: 700px;
+
+  display: flex;
+  align-items: center;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(10, 9, 7, 0.95),
+      rgba(10, 9, 7, 0.55),
+      rgba(10, 9, 7, 0.35)
+    ),
+    url("https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1800&q=85");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  width: min(1250px, 100%);
+  margin: auto;
+  padding: 80px 25px;
+}
+
+.hero-small {
+  color: #d69a50;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+
+.hero h1 {
+  max-width: 650px;
+  margin: 18px 0;
+
+  font-size: clamp(50px, 8vw, 95px);
+  line-height: 0.95;
+}
+
+.hero h1 span {
+  color: #d89b51;
+  display: block;
+}
+
+.hero p {
+  max-width: 560px;
+  color: #c1c1c1;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.primary-button,
+.secondary-button {
+  min-height: 48px;
+  padding: 0 22px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  border-radius: 12px;
+}
+
+.primary-button {
+  background: #d99b51;
+  color: #111;
+}
+
+.secondary-button {
+  border: 1px solid #62503a;
+  color: #fff;
+}
+
+.home-info {
+  max-width: 1100px;
+  margin: -50px auto 0;
+
+  position: relative;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  background: #1a1916;
+  border: 1px solid #302b25;
+  border-radius: 20px;
+
+  padding: 25px;
+}
+
+.home-info > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  padding: 10px 20px;
+}
+
+.home-info svg {
+  color: #d99b51;
+  font-size: 25px;
+}
+
+.home-info small {
+  display: block;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.home-info strong {
+  font-size: 13px;
+}
+
+.home-intro {
+  max-width: 750px;
+  margin: 120px auto;
+  padding: 0 25px;
+  text-align: center;
+}
+
+.home-intro > span {
+  color: #d99b51;
+  font-size: 11px;
+  letter-spacing: 4px;
+}
+
+.home-intro h2 {
+  margin: 15px 0;
+  font-size: clamp(32px, 5vw, 55px);
+}
+
+.home-intro p {
+  color: #999;
+  line-height: 1.8;
+}
+
+.home-intro a {
+  margin-top: 25px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  color: #d99b51;
+}
+
+@media (max-width: 700px) {
+
+  .hero {
+    min-height: 650px;
+  }
+
+  .hero-content {
+    padding: 50px 20px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    max-width: 250px;
+  }
+
+  .home-info {
+    margin: 20px 15px 0;
+    grid-template-columns: 1fr;
+  }
+
+  .home-info > div {
+    padding: 12px 5px;
+  }
+
+  .home-intro {
+    margin: 80px auto;
+  }
+}

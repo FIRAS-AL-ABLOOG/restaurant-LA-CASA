@@ -1,0 +1,14 @@
+.app {
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(176, 116, 38, 0.12),
+      transparent 30%
+    ),
+    #11100e;
+}
+
+main {
+  min-height: 70vh;
+}
