@@ -1,16 +1,138 @@
-# React + Vite
+# 🍕 LA CASA — Restaurant Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive restaurant website built with React and Vite.
 
-Currently, two official plugins are available:
+LA CASA is a fictional restaurant website designed to provide a complete and attractive online restaurant experience, including food browsing, ordering, reservations, location information, and restaurant details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Live Website:**
 
-## Expanding the ESLint configuration
+https://restaurant-la-casa-two.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> If the Vercel URL is different, replace the link above with your actual Vercel URL.
+
+---
+
+## 📸 About The Project
+
+LA CASA is a modern restaurant interface with a clean and professional design.
+
+The website was built as a frontend project to demonstrate:
+
+- React development
+- Responsive design
+- Component-based architecture
+- React Router navigation
+- Shopping cart functionality
+- Modern UI design
+- Page organization
+- GitHub project management
+- Vercel deployment
+
+---
+
+## ✨ Features
+
+### 🏠 Home
+
+The homepage introduces the restaurant and provides quick access to the main sections of the website.
+
+### 🍕 Menu
+
+Browse different food and drink items such as:
+
+- Pizza
+- Burgers
+- Pasta
+- Steak
+- Desserts
+- Drinks
+- Cocktails
+
+Each product is displayed using a reusable food card component.
+
+### 🛒 Order
+
+The order page contains the shopping cart.
+
+Users can:
+
+- Add products
+- Increase quantity
+- Decrease quantity
+- Remove products
+- View the current cart
+
+### 📅 Reservation
+
+A dedicated page for restaurant reservations.
+
+### 📍 Location
+
+Restaurant location and contact information.
+
+### ℹ️ About
+
+Information about the restaurant and its concept.
+
+### 📱 Responsive Design
+
+The website is designed to work across:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+---
+
+## 🛠️ Technologies
+
+This project was built using:
+
+- React
+- Vite
+- JavaScript
+- CSS
+- React Router
+- React Icons
+
+---
+
+## 📂 Project Structure
+
+```text
+restaurant-LA-CASA/
+│
+├── public/
+│   └── images/
+│
+├── src/
+│   │
+│   ├── components/
+│   │   ├── Navbar/
+│   │   ├── FoodCard/
+│   │   └── Footer/
+│   │
+│   ├── pages/
+│   │   ├── Home/
+│   │   ├── Menu/
+│   │   ├── Order/
+│   │   ├── Reservation/
+│   │   ├── Location/
+│   │   └── About/
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
